@@ -1,0 +1,12 @@
+# data
+data_raw/
+*.parquet
+*.zip
+
+# notebooks & OS
+.ipynb_checkpoints/
+.DS_Store
+
+# venv
+venv/
+.env
