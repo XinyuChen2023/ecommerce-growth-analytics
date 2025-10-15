@@ -1,0 +1,137 @@
+[
+  {
+    "name": "name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "email",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "financial_status",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "paid_at",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "fulfillment_status",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "fulfilled_at",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "cancelled_at",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "currency",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "subtotal",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "shipping",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "taxes",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "total",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "discount_amount",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "created_at",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "lineitem_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "lineitem_quantity",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "lineitem_price",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "lineitem_sku",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "vendor",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "accepts_marketing",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "source",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "payment_method",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "billing_country",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "shipping_country",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "billing_province",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "shipping_province",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "risk_level",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]
