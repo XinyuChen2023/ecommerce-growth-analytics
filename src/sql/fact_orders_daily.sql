@@ -1,10 +1,3 @@
--- ===========================================
---  FACT_ORDERS_DAILY
---  Description: Aggregates paid, not-cancelled Shopify orders into daily metrics.
---  Source Table: ecommerce-475102.shopify_clean.orders  (line-item level)
---  Output View : ecommerce-475102.shopify_clean.fact_orders_daily
---  Last updated: 2025-10-14
--- ===========================================
 
 CREATE OR REPLACE VIEW `ecommerce-475102.shopify_clean.fact_orders_daily` AS
 WITH order_lines AS (
