@@ -99,7 +99,7 @@ All cleaning notebooks follow a consistent pattern:
 2. **Type Coercion**: Safely convert dates, numerics, and handle edge cases
 3. **Data Quality**: Remove empty rows/columns, handle duplicates
 4. **Business Rules**: 
-   - **Customer Data**: Exclude internal employees (customers with 'test' in first/last name or @inscoder.com email domain)
+   - **Customer Data**: Exclude internal employees (customers with 'test' in first/last name or internal email domain)
    - **Order Data**: Filter for paid, non-cancelled orders
 5. **Schema Generation**: Auto-generate BigQuery schema JSON files for easy upload
 
@@ -304,12 +304,3 @@ The project includes comprehensive SQL views for BigQuery analysis:
 
 ---
 
-## Contributing
-
-This is a private analytics project. For questions or contributions, please contact the project owner.
-
----
-
-## License
-
-[Add license information if applicable]
